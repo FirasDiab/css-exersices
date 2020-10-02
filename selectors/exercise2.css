@@ -1,0 +1,32 @@
+body {
+    background-color:#f0f8ff;
+}
+
+div {
+    width:75%;
+    min-width:500px;
+    border: 1px solid #333333;
+    margin-bottom: 1em;
+    padding:0.5em;
+    background-color:white;
+    box-shadow: 3px 3px black;
+    border-radius: 10px;
+}
+
+#alert {
+    border: 1px dashed red;
+    color:red;
+    box-shadow: 3px 3px red;
+}
+
+.h11 {
+    font-weight: bold;
+    padding: 0 0.5em;
+    background-color:#fdca96;
+}
+
+.h12 {
+    font-weight:bold;
+    padding: 0 0.5em;
+    background-color:#fdfd96;
+}
