@@ -1,38 +1,15 @@
-1)  * ()---> Select All elements 
-
-2)  li () ---> Select all list elements 
-
-3)  li:first-line()---> Select the first line of every <li> elements
-
-4)  ul li { }---> Select all <li> elements inside <ul> elements
-
-5)  ul 0l+li {} --> Selects all <li> elements that are placed immediately after <ol> elements inside the <ul> elements
-
-6)  h1 + *[rel=up] { } --> Selects every rel attribute whose value contains "up" that are placed immediately after <h1> elements
-
-7)  ul ol li.red { } --> Selects all <li> elements with class="red" inside <ol> element inside <ul> element
-
-8)  li.red.level { } --> Selects all <li> element with both red and level set within its class attribute
-
-9)  style="" --> using as an inline , inside the element tag
-
-10) p { } ---> all <p> element
-
-11) div p { } --> Selects all <p> elements inside <div> elements
-
-12) .sith ---> Select class "sith"
-
-13) div p.sith { } --> Selects all <p> elements with class " sith" inside <div> element
-
-14) #sith ---> Select id "sith"
-
-15) body #darkside .sith p { } ---> Select <p> element inside class "sith" inside id "darkside" inside <body> element
-
-
-
-
-
-
-
-
-
+* { 1 } 
+li { 1} 
+li:first-line { 1 } 
+ul li { 2 } 
+ul ol+li { 3 } 
+h1 + *[rel=up] { 2  } 
+ul ol li.red { 103 } 
+li.red.level { 201 } 
+style=" 1000 " 
+p { 1 } 
+div p { 2 } 
+.sith {100} 
+div p.sith { 102 } 
+#sith (10 ) 
+body #darkside .sith p { 112 } 
